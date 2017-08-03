@@ -7,15 +7,12 @@
 	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
 	<link rel="stylesheet" href="./css/my-bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css">
-	<link rel="stylesheet" type="text/css" href="./plugin/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="./plugin/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="./css/my-plugin.css">
 	<link rel="stylesheet" href="./css/style.css">
 
 	<!-- Meta -->
-	<meta name="description" content="これはポートフォリオサイトです。">
-	<meta name="keywords" content="キーワード">
+	<meta name="description" content="これは日本総合ビジネス専門学校に通う学生のポートフォリオサイトです。">
+	<meta name="keywords" content="小寺俊輝,ニチビ,日本総合ビジネス専門学校">
 	<meta name="robot" content="index,follow,archive">
 	<meta name="author" content="Dera">
 	<meta name="language" content="ja">
@@ -24,43 +21,66 @@
 	<link rel="shortcut icon" href="http://example.com/imgs/favicon.ico">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
+	
+	<nav class="navbar navbar-default navbar-fixed-top visible-xs visible-sm">
+		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gnavi">
-					<span class="sr-only">メニュー</span>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#accordionNav">
+					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="" class="navbar-brand">Kode's Site</a>
+				<a class="navbar-brand" href="#">Dera's Site</a>
 			</div>
-			
-			<div id="gnavi" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="">about</a></li>
-					<li><a href="">product</a></li>
+
+			<div class="collapse navbar-collapse" id="accordionNav">
+				<ul class="nav navbar-nav navbar-right tab">
+					<li class="select"><a href="#">home</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">product</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-	<div id="fullpage">
-		<div id="home" class="section" style="background-color:red">s</div>
-		<div id="about" class="section" style="background-color:blue">gfh</div>
-		<div id="product" class="section" style="background-color:green">
-			
-			<footer>Copylight&copy;KODERA TOSHIKI</footer>
+	
+	<div class="container-fluid groundBox">
+		<div class="row">
+			<div id="main" class="col-md-9 col-sm-12">
+				<div class="middleBox">
+					<div class="jumbotron content_home">
+						<h1>Dera's Site</h1>
+						<p>これは日本総合ビジネス専門学校に通う学生のポートフォリオサイトです。</p>
+					</div>
+					<div class="content_about">
+						<h1>プロフィール</h1>
+						<h2>名前</h2>
+						<p><ruby>小寺<rt>こでら</rt> 俊輝<rt>としき</rt></ruby></p>
+						<h2>出身地</h2>
+						<p>岐阜県大垣市</p>
+						<h2>スキル</h2>
+						<p>Bootstrap,smarty,PHP,Swift</p>
+						<br>
+						<p>岐阜県大垣市にある日本総合ビジネス専門学校に通う</p>
+					</div>
+					<div class="content_product">
+						
+					</div>
+				</div>
+				<footer><small>Copylight&copy;KODERA TOSHIKI</small></footer>
+			</div>
+			<div id="gnavi" class="col-md-3 hidden-xs hidden-sm">
+				<div class="row tab">
+					<div class="col-md-4 col-xs-12 linkInPage gnavi_home select">home</div>
+					<div class="col-md-4 col-xs-12 linkInPage gnavi_about">about</div>
+					<div class="col-md-4 col-xs-12 linkInPage gnavi_product">product</div>
+				</div>
+			</div>
 		</div>
-		
 	</div>
 	
 	<script src="./js/jquery-2.1.3.min.js"></script>
 	<script src="./bootstrap/js/bootstrap.min.js"></script>
-	<script src="./js/jquery.easings.min.js"></script>
-	<script src="./js/scrolloverflow.min.js"></script>
-	<script src="./js/jquery.fullPage.min.js"></script>
 	<script src="./js/main.js"></script>
-	<script src="./plugin/slick/slick.min.js"></script>
 </body>
 </html>

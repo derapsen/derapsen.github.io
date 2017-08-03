@@ -1,26 +1,3 @@
-/*
- *
- *  slick.js用カスタムCSS
- *
- */
-
- /*左右の矢印の色*/
-.slick-prev:before,
-.slick-next:before {}
-/*左右の矢印の位置*/
-.slick-next {}
-.slick-prev {}
-/*スライド数のドット*/
-.slick-dots li.slick-active button:before,
-.slick-dots li button:before {}
-/*スライド画像の横幅可変*/
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/*
- *
- *  ＿＿用カスタムCSS
- *
- */
+/**
+ *	__用カスタムCSS
+ **/

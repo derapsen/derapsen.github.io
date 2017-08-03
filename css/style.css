@@ -1,0 +1,99 @@
+.groundBox
+{
+	height: 100vh;
+	color: ghostwhite;
+}
+
+.groundBox > .row, #gnavi > .row
+{
+	height: 100%;
+}
+
+#main, #gnavi
+{
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#main
+{
+	position: relative;
+	background-color: #000;
+}
+
+.middleBox
+{
+	width: 100%;
+	max-width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content_home
+{
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #000;
+	border: 1px solid ghostwhite;
+}
+
+.linkInPage
+{
+	height: 100%;
+	padding-bottom: 15px;
+	text-align: right;
+	font-size: 2.5em;
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+
+.gnavi_home
+{
+	background-color: #000;
+}
+
+.gnavi_about
+{
+	background-color: #404040;
+}
+
+.gnavi_product
+{
+	background-color: #808080;
+}
+
+#home, #about, #product
+{
+	position: relative;
+}
+
+footer
+{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	opacity: 0.7;
+}
+
+/**
+ *	モバイルタブレット用CSS
+ **/
+
+@media screen and ( max-width:991px )
+{
+	.groundBox
+	{
+		padding-top: 51px;
+	}
+}
