@@ -1,5 +1,12 @@
 $(function()
 {
+	$(document).ready(
+		function()
+		{
+			$(".img_slide").imgLiquid();
+		}
+	);
+	
 	/**
 	*	tab切り替え（header用）
 	**/

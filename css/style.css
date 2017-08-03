@@ -42,7 +42,7 @@
 	border: 1px solid ghostwhite;
 }
 
-.content_about
+.content_about, .content_product
 {
 	width: 90%;
 	position: absolute;
@@ -81,11 +81,6 @@
 .gnavi_product
 {
 	background-color: #808080;
-}
-
-#home, #about, #product
-{
-	position: relative;
 }
 
 footer
