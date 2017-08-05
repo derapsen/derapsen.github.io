@@ -13,6 +13,11 @@
 	margin-right: 0;
 }
 
+.panel
+{
+	margin-bottom: 0;
+}
+
 .panel, .panel-heading, .panel-body, .panel-footer
 {
 	border-style: hidden;
