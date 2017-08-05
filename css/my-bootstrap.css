@@ -6,3 +6,20 @@
 {
 	margin-bottom: 0;
 }
+
+.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.panel, .panel-heading, .panel-body, .panel-footer
+{
+	border-style: hidden;
+	background-color: #000 !important;
+}
+
+.panel-heading, .panel-footer
+{
+	text-align: center;
+}

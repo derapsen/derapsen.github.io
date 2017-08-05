@@ -1,6 +1,18 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
 .groundBox
 {
-	height: 100vh;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #000;
 	color: ghostwhite;
 }
 
@@ -25,30 +37,44 @@
 .middleBox
 {
 	width: 100%;
+	height: auto;
 	max-width: 800px;
-	height: 100%;
 	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%); /* Safari用 */
+	transform: translateY(-50%);
 }
 
 .content_home
 {
-	width: 90%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 15px;
 	background-color: #000;
 	border: 1px solid ghostwhite;
 }
 
-.content_about, .content_product
+.content_about, .content_works
 {
-	width: 90%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.panel-heading
+{
+	border-bottom: 2px dotted ghostwhite;
+}
+
+.panel-heading > h1
+{
+	margin: 0;
+	color: ghostwhite;
 }
 
 .head_profile
@@ -56,10 +82,17 @@
 	border-bottom: 2px solid ghostwhite;
 }
 
+#gnavi
+{
+	margin: 0;
+}
+
 .linkInPage
 {
 	height: 100%;
+	padding-left: 15px;
 	padding-bottom: 15px;
+	margin: 0;
 	text-align: right;
 	font-size: 2.5em;
 	-webkit-writing-mode: vertical-rl;
@@ -78,21 +111,9 @@
 	background-color: #404040;
 }
 
-.gnavi_product
+.gnavi_works
 {
 	background-color: #808080;
-}
-
-footer
-{
-	width: 100%;
-	height: 40px;
-	line-height: 40px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	text-align: center;
-	opacity: 0.7;
 }
 
 /**

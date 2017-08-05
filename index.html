@@ -5,7 +5,7 @@
 	<title>ポートフォリオサイト</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+	<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css"> --> 
 	<link rel="stylesheet" type="text/css" href="./css/my-bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/my-plugin.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -38,7 +38,7 @@
 				<ul class="nav navbar-nav navbar-right tab">
 					<li class="select"><a href="#">home</a></li>
 					<li><a href="#">about</a></li>
-					<li><a href="#">product</a></li>
+					<li><a href="#">works</a></li>
 				</ul>
 			</div>
 		</div>
@@ -49,36 +49,62 @@
 		<div class="row">
 			<div id="main" class="col-md-9 col-sm-12">
 				<div class="middleBox">
-					<div class="jumbotron content_home">
-						<h1>Dera's Site</h1>
-						<p>これは大垣市にある専門学校に通う学生のポートフォリオサイトです。</p>
+					<div class="panel panel-default contents">
+						<div class="panel-body">
+							<div class="jumbotron content_home">
+								<h1>Dera's Site</h1>
+								<p>これは大垣市にある専門学校に通う学生のポートフォリオサイトです。</p>
+							</div>
+						</div>
+						<div class="panel-footer">
+							<small>Copylight&copy;KODERA TOSHIKI</small>
+						</div>
+					</div>	
+					<div class="panel panel-default contents" style="display: none">
+						<div class="panel-heading">
+							<h1>ABOUT</h1>
+						</div>
+						<div class="panel-body">
+							<div class="content_about">
+								<h3 class="head_profile">プロフィール</h3>
+								<h4>名前</h4>
+								<p><ruby>小寺<rt>こでら</rt> 俊輝<rt>としき</rt></ruby></p>
+								<h4>出身地</h4>
+								<p>岐阜県大垣市</p>
+								<h4>職業</h4>
+								<p>学生：日本総合ビジネス専門学校ITスペシャリスト学科2年</p>
+								<h4>スキル</h4>
+								<p>Bootstrap,smarty,PHP,Swift</p>
+								<h4>趣味</h4>
+								<p>ツーリング</p>
+								<br>
+								<p>このサイトをご覧の方、はじめまして。このサイトは専門学校の課題で作られたもので、自分自身のスキルの確認と向上を図るためのポートフォリオサイトです。</p>
+							</div>
+						</div>
+						<div class="panel-footer">
+							<small>Copylight&copy;KODERA TOSHIKI</small>
+						</div>
 					</div>
-					<div class="content_about" style="display: none">
-						<h1 class="head_profile">プロフィール</h1>
-						<h4>名前</h4>
-						<p><ruby>小寺<rt>こでら</rt> 俊輝<rt>としき</rt></ruby></p>
-						<h4>出身地</h4>
-						<p>岐阜県大垣市</p>
-						<h4>職業</h4>
-						<p>学生：日本総合ビジネス専門学校ITスペシャリスト学科2年</p>
-						<h4>スキル</h4>
-						<p>Bootstrap,smarty,PHP,Swift</p>
-						<h4>趣味</h4>
-						<p>ツーリング</p>
-						<br>
-						<p>このサイトをご覧の方、はじめまして。このサイトは専門学校の課題で作られたもので、自分自身のスキルの確認と向上を図るためのポートフォリオサイトです。</p>
-					</div>
-					<div class="content_product" style="display: none">
-						
+					<div class="panel panel-default contents" style="display: none">
+						<div class="panel-heading">
+							<h1>WORKS</h1>
+						</div>
+						<div class="panel-body">
+							<div class="content_works">
+								
+							</div>
+						</div>
+						<div class="panel-footer">
+							<small>Copylight&copy;KODERA TOSHIKI</small>
+						</div>
 					</div>
 				</div>
-				<footer><small>Copylight&copy;KODERA TOSHIKI</small></footer>
 			</div>
 			<div id="gnavi" class="col-md-3 hidden-xs hidden-sm">
 				<div class="row tab">
 					<div class="col-md-4 col-xs-12 linkInPage gnavi_home select">home</div>
 					<div class="col-md-4 col-xs-12 linkInPage gnavi_about">about</div>
-					<div class="col-md-4 col-xs-12 linkInPage gnavi_product">product</div>
+					<div class="col-md-4 col-xs-12 linkInPage gnavi_works">works</div>
 				</div>
 			</div>
 		</div>
@@ -86,7 +112,6 @@
 	
 	<script src="./js/jquery-2.1.3.min.js"></script>
 	<script src="./bootstrap/js/bootstrap.min.js"></script>
-	<script src="./js/imgLiquid-min.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 </html>
