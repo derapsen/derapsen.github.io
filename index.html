@@ -7,8 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
 	<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css"> --> 
 	<link rel="stylesheet" type="text/css" href="./css/my-bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./plugin/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="./plugin/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="./css/my-plugin.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
@@ -93,11 +91,92 @@
 						</div>
 						<div class="panel-body">
 							<div class="content_works">
-								<ul class="slidshow_works">
-									 <li><a href="#"><img src="./imgs/AideA.jpg"></a></li>
-									 <li><a href="#"><img src="./imgs/WalkMan.jpg"></a></li>
-									 <li><a href="#"><img src="./imgs/hitcun.jpg"></a></li>
-								</ul>
+								<div class="row">
+									<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="thumbnail">
+											<a href="#" data-toggle="modal" data-target="#modal_work1"><img src="./imgs/AideA.jpg" alt="AideA"></a>
+											<div class="caption">
+												<h4>AideA</h4>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="thumbnail">
+											<a href="#" data-toggle="modal" data-target="#modal_work2"><img src="./imgs/WalkMan.jpg" alt="WalkMan"></a>
+											<div class="caption">
+												<h4>WalkMan</h4>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="thumbnail">
+											<a href="#" data-toggle="modal" data-target="#modal_work3"><img src="./imgs/hitcun.jpg" alt="hitcun"></a>
+											<div class="caption">
+												<h4>hitcun</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- モーダル・ダイアログ -->
+								<div class="modal fade" id="modal_work1" tabindex="-1">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title"><ruby>AideA<rt>アイデア</rt></ruby> -App for Invent a Dictionary by Entering Alphabet-</h4>
+												<h6>アプリをダウンロードした全てのユーザーが一つの共通項目に対して協力し合えれるアプリ</h6>
+											</div>
+											<div class="modal-body">
+												<p>東京ゲームショー2017アマチュア部門に向けて製作したものです。</p>
+												<p>アマチュア部門のテーマ「はさむ」から「物理的なはさむ」ではなく「文字と文字の間に文字をはさんで単語を完成させる」をコンセプトにしました。
+												<p>ゲームとしては、全ユーザー共通の英単語のお題の端を残し中の部分に他のユーザーから集めたアルファベットを組み合わせて入力、見事英単語を作ると自分だけの辞書「My辞書」に追加していきます。</p>
+												<p>My 辞書に追加された英単語は確認することができ、英単語の意味も表示できます。</p>
+												<hr>
+												<p>仕様：Swift</p>
+											</div>
+											<div class="modal-footer">
+												2017年6月
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="modal_work2" tabindex="-1">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title"><ruby>WalkMan<rt>ウォークマン</rt></ruby></h4>
+												<h6>音楽とともに歩むアプリ</h6>
+											</div>
+											<div class="modal-body">
+												<p>あなたは音楽をどのように楽しんでいますか？</p>
+												<p>イヤホンやスピーカーなどで音楽を楽しむのもいいのですが、『WalkMan』は音楽とともに歩み楽しむ、「音楽と日常の一体化」を目指し制作しました。アプリ起動後、流す曲を設定しておき歩いてみると音楽が自動で流れ、音楽が自分の歩きについてくるような感覚になります。</p>
+												<hr>
+												<p>仕様：Swift,CocoaPods</p>
+											</div>
+											<div class="modal-footer">
+												2017年7月
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="modal_work3" tabindex="-1">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title"><ruby>hitcun<rt>ヒット缶</rt></ruby></h4>
+												<h6>新感覚！蓋あけ対決デバイス</h6>
+											</div>
+											<div class="modal-body">
+												<p>手軽に勝敗を決めることができる方法に「じゃんけん」がある。そこで、身体を使って勝敗を決める方法にデバイス(モノ)を組み合わせることで、携帯性とアクティビティを持ち合わせた新しいスタイルができるのではないかと考え制作しました。</p>
+												<p>デバイスを起動しペアの起動が確認できたらカウントが始まります。カウント後、デバイスが振動するので相手より早くデバイスの蓋を開けることで勝ちとなります。</p>
+												<hr>
+												<p>仕様：Arduino Pro mini</p>
+											</div>
+											<div class="modal-footer">
+												2017年7月
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="panel-footer">
@@ -118,7 +197,6 @@
 	
 	<script src="./js/jquery-2.1.3.min.js"></script>
 	<script src="./bootstrap/js/bootstrap.min.js"></script>
-	<script src="./plugin/slick/slick.min.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 </html>

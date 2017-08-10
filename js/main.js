@@ -52,16 +52,6 @@ $(function()
 	);
 	
 	/**
-	*	slick.js
+	*	__.js
 	**/
-	$('.slidshow_works').slick(
-		{
-			dots: true,
-			infinite: true,
-			speed: 300,
-			slidesToShow: 1,
-			centerMode: true,
-			variableWidth: true
-		}
-	);
 });

@@ -1,20 +1,3 @@
 /**
- *	slick.js用カスタムCSS
+ *	__.js用カスタムCSS
  **/
-/*スライド数のドットの色を変える*/
-.slick-dots li.slick-active button:before,
-.slick-dots li button:before
-{
-    color: #fff;
-}
-/*スライド画像の横幅可変*/
-.slidshow_works img
-{
-    max-width: 100%;
-    height: auto;
-}
-
-.slidshow_works
-{
-	-webkit-padding-start: 0;
-}

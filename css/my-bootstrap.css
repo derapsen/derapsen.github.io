@@ -28,3 +28,24 @@
 {
 	text-align: center;
 }
+
+.thumbnail
+{
+	background-color: #000;
+}
+
+.thumbnail > .caption
+{
+	color: ghostwhite;
+}
+
+.modal-content
+{
+	color: #000;
+}
+
+.modal-body p
+{
+	margin: 0;
+	text-indent: 1em;
+}
