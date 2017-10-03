@@ -31,15 +31,6 @@ body {
 	background-color: #000;
 }
 
-.linkInPage
-{
-	cursor: pointer;
-}
-.linkInPage:hover
-{
-	opacity: 0.75;
-}
-
 .middleBox
 {
 	width: 100%;
@@ -100,6 +91,12 @@ body {
 	-moz-writing-mode: vertical-rl;
 	-ms-writing-mode: tb-rl;
 	writing-mode: vertical-rl;
+}
+
+.linkInPage:hover
+{
+	opacity: 0.75;
+	cursor: pointer;
 }
 
 .gnavi_home
