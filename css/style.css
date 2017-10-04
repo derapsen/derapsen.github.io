@@ -74,6 +74,11 @@ body {
 	border-bottom: 2px solid ghostwhite;
 }
 
+.thumnail_height
+{
+	height: 130px;
+}
+
 #gnavi
 {
 	margin: 0;
